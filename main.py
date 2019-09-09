@@ -79,7 +79,7 @@ def whichType(t):
     Returns the python data type of t
     '''
     toReturn = ''
-    toReturn = t 
+    toReturn = type(t)
     # add your code here
     return toReturn
 
